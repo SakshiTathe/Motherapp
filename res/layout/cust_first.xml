@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/nameid"
+        android:layout_width="80px"
+        android:layout_height="50dp"
+        android:text="10"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/namepn"
+        android:layout_width="0px"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Name:\nPhone: "
+        android:textSize="19dp"
+        app:layout_constraintStart_toEndOf="@+id/nameid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameee"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="sakshi tathe"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/measur"
+        app:layout_constraintStart_toEndOf="@+id/namepn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phonee"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="1234567890"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/nameee"
+        app:layout_constraintStart_toEndOf="@+id/namepn"
+        app:layout_constraintTop_toBottomOf="@+id/nameee" />
+
+
+    <Button
+        android:id="@+id/measur"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/tape"
+        app:layout_constraintEnd_toStartOf="@+id/bill"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bill"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/baseline_attach_money_24"
+        android:contentDescription="bill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

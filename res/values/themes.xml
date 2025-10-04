@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MotherAPP" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:textColor">@color/darkbrown</item>       <!-- Dark brown -->
+        <item name="android:strokeColor">#D6A4A4</item>     <!-- Rose border -->
+        <item name="android:fontFamily">@font/playfair_display_medium</item> <!-- Optional -->
+        <item name="android:colorPrimary">#FADADD</item>
+    </style>
+
+    <style name="Theme.MotherAPP" parent="Base.Theme.MotherAPP" />
+</resources>

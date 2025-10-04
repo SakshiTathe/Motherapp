@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VintageButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">#1E4B4A</item>       <!-- Dark brown -->
+        <item name="android:strokeColor">#D6A4A4</item>     <!-- Rose border -->
+        <item name="android:fontFamily">@font/playfair_display_medium</item> <!-- Optional -->
+        <item name="colorPrimary">#FADADD </item>
+    </style>
+</resources>
